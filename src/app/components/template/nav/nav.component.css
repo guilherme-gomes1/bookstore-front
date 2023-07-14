@@ -1,7 +1,18 @@
 .container{
   height: 85%;
+  background-color: rgb(47,46,48);
 }
+
 
 i {
   padding-right: .6rem;
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.nav {
+  background-color: rgb(67,66,67);
 }
