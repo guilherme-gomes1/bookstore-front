@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   justify-content: flex-end;
+  height: 5%;
   font-size: 1rem;
   color: white;
   background-color: rgb(32,31,32);
