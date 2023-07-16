@@ -14,6 +14,10 @@
   font-weight: 300;
 }
 
+button {
+  margin-bottom: 1rem;
+}
+
 .table {
   width: 100%;
   background-color: rgb(67,66,67);
@@ -28,5 +32,26 @@ span {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.edit {
+  color: rgb(206, 173, 24);
+}
+
+.delete {
+  color: rgb(228, 56, 56)
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.livros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
 }
 
