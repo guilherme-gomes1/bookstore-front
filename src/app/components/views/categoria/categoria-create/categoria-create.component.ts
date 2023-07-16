@@ -26,9 +26,13 @@ export class CategoriaCreateComponent implements OnInit {
       this.router.navigate(['categorias']);
     }, err => {
       for(let i = 0; i < err.error.errors.length; i++) {
-        this.service.mensagem(err.error.errors[i].message)
+        this.service.mensagem(err.error.errors[i].message);
       }
     })
+  }
+
+  cancel(): void {
+    this.router.navigate(['categorias']);
   }
 
 }
