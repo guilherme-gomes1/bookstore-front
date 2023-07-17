@@ -6,36 +6,41 @@ import { CategoriaReadComponent } from './components/views/categoria/categoria-r
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
 import { LivroReadAllComponent } from './components/views/livro/livro-read-all/livro-read-all.component';
+import { LivroCreateComponent } from './components/views/livro/livro-create/livro-create.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'categorias',
-    component: CategoriaReadComponent
+    component: CategoriaReadComponent,
   },
   {
     path: 'categorias/create',
-    component: CategoriaCreateComponent
+    component: CategoriaCreateComponent,
   },
   {
     path: 'categorias/delete/:id',
-    component: CategoriaDeleteComponent
+    component: CategoriaDeleteComponent,
   },
   {
     path: 'categorias/update/:id',
-    component: CategoriaUpdateComponent
+    component: CategoriaUpdateComponent,
   },
   {
     path: 'categorias/:id_cat/livros',
-    component: LivroReadAllComponent
-  }
+    component: LivroReadAllComponent,
+  },
+  {
+    path: 'categorias/:id_cat/livros/create',
+    component: LivroCreateComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
