@@ -1,0 +1,23 @@
+form {
+  width: 90%;
+  margin: auto;
+}
+
+.home {
+  margin: 1rem auto;
+  text-align: center;
+  background-color: rgb(67, 66, 67);
+}
+
+.title,
+.subtitle {
+  color: white;
+}
+
+.texto {
+  text-align: justify;
+}
+
+button {
+  width: 100%;
+}
